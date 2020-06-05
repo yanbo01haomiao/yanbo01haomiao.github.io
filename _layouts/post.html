@@ -2,10 +2,6 @@
 layout: default
 ---
 
-<!-- Image to hack wechat -->
-<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
-<!-- <img src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" width="0" height="0"> -->
-
 <!-- Post Header -->
 {% include intro-header.html type='post' %}
 
@@ -63,7 +59,7 @@ layout: default
                 {% endif %}
             </div>  
 
-    <!-- Side Catalog Container -->
+    <!-- Side Catalog Container 侧边栏目录，对应md的级别标题，没有树状结构 -->
         {% if page.catalog %}
             <div class="
                 col-lg-2 col-lg-offset-0
@@ -96,7 +92,7 @@ layout: default
     </div>
 </article>
 
-<!-- add support for mathjax by voleking-->
+<!-- add support for mathjax by voleking 支持数学公式，使用latex公式-->
 {% if page.mathjax %}
   {% include mathjax_support.html %}
 {% endif %}
