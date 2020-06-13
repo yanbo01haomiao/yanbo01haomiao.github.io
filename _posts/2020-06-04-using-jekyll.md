@@ -163,3 +163,37 @@ $ bundle config mirror.https://rubygems.org https://mirrors.tuna.tsinghua.edu.cn
 
 参考文章：https://zhuanlan.zhihu.com/p/64849549
 
+## 项目编译与预览
+
+项目编译使用安装的bundle进行，命令为
+
+```bash
+$ bundle exec jekyll serve
+```
+
+预览编译没有问题访问网页即可查看。而且网页支持动态编译，修改内容会进行`regenerating`，可以实时预览。
+
+## 问题解决
+
+如果出现Address already in use - bind(2)的问题，一直本地的服务启动不起来，是端口被占用了，应该是我之前启动的jekyll 服务没有关闭，导致新服务启动不了。最终的解决方案如下。
+
+1 查看占用端口的进程
+
+```bash
+sudo lsof -wni tcp:4000
+```
+
+结果如下：
+
+```bash
+COMMAND   PID  USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+bundle  9390 root    9u  IPv4 94354902      0t0  TCP 127.0.0.1:4000 (LISTEN)
+```
+
+2，杀掉占用端口的进程（sudo kill -9 PID）
+
+```bash
+sudo kill -9 9390
+```
+
+3，再次启动 jekyll 服务正常。
