@@ -35,6 +35,74 @@ tags:
 
 后续细化的版本会放在blog中留档。
 
+#### 机器学习
+
+<small>老生常谈但是又很难吃透。</small>
+
+经典模型与方法：
+
+1. 形式语言，语法树，自动机，基于概率的语言模型
+
+2. 智能搜索方法论，智能路径搜索，此基础上的爬虫
+
+3. 动态规划，线性优化，多种距离与文本相似度
+
+4. 词向量，word2vec，关键词提取，实体识别，依存分析，主题模型
+
+5. 线性回归，逻辑回归，CNN，可视化，经典CNN，SGD，adam
+
+6. RNN，LSTM，训练问题
+
+参考仓库：
+
+[深度学习500问](https://github.com/scutan90/DeepLearning-500-questions) —— 问题粒度比较小，拆分理解更方便。
+
+[《机器学习》（西瓜书）公式推导解析](https://datawhalechina.github.io/pumpkin-book) 
+
+[李宏毅机器学习笔记(LeeML-Notes)](https://datawhalechina.github.io/leeml-notes/#/) 
+
+#### cv
+
+1. 基本概念与操作：图像属性，投影变化，图像一二阶导数，边缘检测、锐化、模糊，角点检测
+
+2. 特征点：SIFI，HoG特征，RANSAC算法，传统cv流程，opencv
+
+3. 基于pytorch的基础层搭建，网络层搭建，FLOPS计算，网络参数初始化策略，图像预处理，参数调优方式，评价指标
+
+4. cuda加速，Thread、Block、Grids,Memory层级，cuda变量，1 block and 1 thread 到 N block and N thread
+
+5. RCNN，Fast RCNN，Faster RCNN，Yolo3
+
+6. 图像分割，图像风格转换。 卡尔曼滤波
+
+#### 系统项目（偏数据挖掘）
+
+> RS 推荐系统
+
+1. 基础概念：商业智能场景和工具，信息流产品——推荐架构，广告，搜索，推荐方法，冷启动，E&E
+
+2. 关联规则：apriori， FPGrowth，最小值尺度、最小置信度，超市小票关联分析案例，电影分类中的关联分析
+
+3. 决策树与随机森林，SVM支持向量机，贝叶斯分类器，K-Means与层级聚类
+
+4. 矩阵分解ALS算法，spark中的ALS工具，surprise推荐工具的使用，Netflix电影评分预测
+
+5. 因子分解机，FM，FFM，NFM，工具libFM、xlearn，广告点击率预测
+
+> 价格预测
+
+6. 预测GBDT，XGBoost，LightGBM，NGBoost
+
+7. AR，MA，ARMA，ARIMA，股市预测
+
+> 路径规划
+
+8. 复杂度，DFS，BFS，动态规划
+
+9. PageRank为例的图论经典模型，社区发现LPA，最短路径规划Dijkstra，Floyd，
+
+10. autoML，工具TPOT、ModelArts; Q-learning,Deep Q learning,价值网络，策略网络
+
 ### 算法模板计划
 
 说明：刚好趁着这学期的算法课程的巧，对一些算法原理和算法实现进行系统化的整理和归纳。
