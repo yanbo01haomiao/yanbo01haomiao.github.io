@@ -7,7 +7,6 @@ author:     "yanbo"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-    - 生活
     - Meta
     - 博客
 ---
