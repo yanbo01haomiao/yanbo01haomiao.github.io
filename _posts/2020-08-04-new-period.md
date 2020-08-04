@@ -23,7 +23,13 @@ tags:
 
 一回来就代表我有电脑了（理直气壮！），赶紧摸了kazii式的炼狱杏寿郎，大哥在我桌面跳舞我就很有动力。大哥，长在我xp上的男人！
 
-<iframe src="//player.bilibili.com/player.html?aid=584114486&bvid=BV1U64y1F7Lt&cid=219720671&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+b站引用视频代码，把aid，bid，cid替换即可：
+
+```html
+<iframe id=sbrxp src="//player.bilibili.com/player.html?aid=29260658&cid=50811823&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 640px; height: 430px; max-width: 100%"> </iframe>
+```
+
+<iframe id=sbrxp src="//player.bilibili.com/player.html?aid=584114486&bvid=BV1U64y1F7Lt&cid=219720671&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 640px; height: 430px; max-width: 100%"> </iframe>
 
 ## 数学计划
 
