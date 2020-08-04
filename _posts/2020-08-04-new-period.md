@@ -26,10 +26,12 @@ tags:
 b站引用视频代码，把aid，bid，cid替换即可：
 
 ```html
-<iframe id=sbrxp src="//player.bilibili.com/player.html?aid=29260658&cid=50811823&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 640px; height: 430px; max-width: 100%"> </iframe>
+<iframe id=sbrxp src="//player.bilibili.com/player.html?aid=29260658&cid=50811823&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 640px; height: 430px; max-width: 100%"></iframe>
 ```
 
-<iframe id=sbrxp src="//player.bilibili.com/player.html?aid=584114486&bvid=BV1U64y1F7Lt&cid=219720671&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 640px; height: 430px; max-width: 100%"> </iframe>
+<iframe id=sbrxp src="//player.bilibili.com/player.html?aid=584114486&bvid=BV1U64y1F7Lt&cid=219720671&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 640px; height: 430px; max-width: 100%"></iframe>
+
+<iframe src="//player.bilibili.com/player.html?aid=584114486&bvid=BV1U64y1F7Lt&cid=219720671&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 ## 数学计划
 
